@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: Credit Score Calculator
+server:
+  port: 8186
+creditScore:
+  calculator:
+    url: http://localhost:8186/calculator/calculateCreditScore
